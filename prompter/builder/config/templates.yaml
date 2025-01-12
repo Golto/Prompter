@@ -1,0 +1,40 @@
+# config/templates.yaml
+templates:
+  # System prompt for agents
+  - flag_name: "symbol"
+    var_name: "beginning"
+    template: "agents/{agent_name}/beginning.md"
+  
+  - flag_name: "symbol"
+    var_name: "guidelines"
+    template: "agents/guidelines.md"
+  
+  - flag_name: "symbol"
+    var_name: "end"
+    template: "agents/{agent_name}/end.md"
+  
+  - flag_name: "symbol"
+    var_name: "system_prompt"
+    template: "agents/main.md"
+  
+  # Input prompt
+  - flag_name: "symbol"
+    var_name: "input_prompt"
+    template: "user/input.md"
+  
+  # Debugging purposes
+  - flag_name: "symbol"
+    var_name: "debug_name"
+    template: "debug/info/name.md"
+  
+  - flag_name: "symbol"
+    var_name: "debug_version"
+    template: "debug/info/version.md"
+  
+  - flag_name: "symbol"
+    var_name: "debug_general"
+    template: "debug/info/general.md"
+  
+  - flag_name: "symbol"
+    var_name: "debug_prompt"
+    template: "debug/main.md"

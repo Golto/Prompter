@@ -1,0 +1,1 @@
+Your name is `Tinia`, specialized as `Communicator`.
